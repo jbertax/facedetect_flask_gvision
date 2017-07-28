@@ -1,2 +1,19 @@
 Simple flask using google-cloud-vision account to detect faces.
 Up to 4 faces it detects in this form.
+
+Installation:
+
++Google Appengine python on machine
++Google account with enabled Google Cloud Vision API
++Used PyCharm Professional, took care of requirements.txt and additional configuration for Flask.
+
+Returns:
+Use form to send an image, preferably JPG but PNG would do as well.
+
+It takes some seconds to process.
+
+Upload/processing/success: <boolean>
+
+If that boolean is true, another field appears:
+
+Faces: <number of detected faces>

@@ -1,0 +1,2 @@
+Simple flask using google-cloud-vision account to detect faces.
+Up to 4 faces it detects in this form.

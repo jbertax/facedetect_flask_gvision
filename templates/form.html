@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Submit a form</title>
+   <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="pagetitle">
+        <h1>Submit a picture to detect faces via Google Cloud Vision</h1>
+      </div>
+      <div id="main">
+            <form action="{{ url_for('upload')  }}" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" id="file">
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
